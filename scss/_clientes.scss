@@ -1,0 +1,39 @@
+.header__clientes {
+    background-image: url(../img/clientes.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.contenido__texto h3 {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration:underline ;
+}
+.clientes {
+    @extend .bloques;
+    background-color: #12727D;
+}
+.bloque__cliente {
+    padding: 25px;
+}
+// .bloque__cliente img {
+//     height: 400px;
+//     width: 400px;
+//     border-radius: 800px;
+//     box-shadow: 3px 3px 10px aqua;
+// }
+.bloque__cliente img {
+    height: map-get($cliente , height );
+    width: map-get($cliente , width );
+    border-radius: map-get($cliente , border-radius );
+    box-shadow: map-get($cliente , box-shadow );
+}
+
+.bloque__cliente p {
+    @extend .parrafo;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,28 @@
+$bloque:(
+    padding: 25px,
+    align-items: center,
+    justify-content: center
+);
+$nosotros: (
+    display: flex,
+    margin-top: 40px,
+    padding: 30px
+);
+$cliente: (
+    height: 400px,
+    width: 400px,
+    border-radius: 800px,
+    box-shadow: 3px 3px 10px aqua
+);
+$blog: (
+    display: flex,
+    background-color: white,
+    margin-top: 15px,
+    padding: 20px
+);
+$boton: (
+    background-color: red,
+    color: white,
+    padding: 10px 20px,
+    margin-bottom: 30px
+);

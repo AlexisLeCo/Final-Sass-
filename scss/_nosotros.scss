@@ -1,0 +1,18 @@
+// .contenido__nosotros {
+//     display: flex;
+//     margin-top: 40px;
+//     padding: 30px;
+// }
+.contenido__nosotros {
+    display: map-get($nosotros , display );
+    margin-top: map-get($nosotros , margin-top );
+    padding: map-get($nosotros , padding );
+}
+.contenido__nosotros img {
+    width: 50%;
+    border-radius: 30px;
+}
+.contenido__nosotros p {
+    font-size: 30px;
+    padding: 0 20px 0 20px;
+}

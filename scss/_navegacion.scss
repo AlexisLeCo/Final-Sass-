@@ -1,0 +1,22 @@
+.barra {
+    background-color: #122C39;
+    width: 100%;
+    display: flex;
+    padding-top: 2px;
+    justify-content: space-between;
+    align-items: center;
+}
+.barra a h1 {
+    color: white;
+}
+.navegacion__enlace {
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+    color: white;
+    transition: all 300ms;
+}
+.navegacion__enlace:hover {
+    color:aqua;
+    transform: scale(1.2, 1.2);
+}

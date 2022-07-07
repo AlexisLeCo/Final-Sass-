@@ -1,0 +1,38 @@
+// .articulos {
+//     display: flex;
+//     background-color: white;
+//     margin-top: 15px;
+//     padding: 20px;
+// }
+.articulos {
+    display: map-get($blog , display );
+    background-color: map-get($blog , background-color );
+    margin-top: map-get($blog , margin-top );
+    padding: map-get($blog , padding );
+}
+.articulo {
+    display: flex;
+    flex-direction: column;
+}
+
+.articulo img {
+    height: 200px;
+    width: 300px;
+}
+.articulo__texto {
+    padding: 15px;
+}
+.articulo__texto h4 {
+    font-size: 30px;
+}
+.articulo__texto h6 {
+    font-size: 18px;
+    color: #676363;
+    line-height: 30px;
+}
+.articulo__texto p {
+    font-size: 15;
+}
+.articulo__texto span {
+   color: #122C39;
+}
